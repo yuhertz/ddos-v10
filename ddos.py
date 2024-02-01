@@ -5,7 +5,7 @@ target_website = input("Enter website URL: ")
 
 def create_bots():
     bots = []
-    for i in range(10):
+    for i in range(100):
         bot = requests.Session()
         bot.headers.update({"User-Agent": "Mozilla/5.0"})
         bots.append(bot)
